@@ -1,0 +1,129 @@
+body {
+    font-family: Quicksand,sans-serif;
+    line-height: 1.5;
+}
+* {
+    box-sizing: border-box;
+}
+a {
+    color: #7d7d7d;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: #78cccd;;
+}
+li {
+    list-style: none;
+}
+/* =========================== */
+/* ======STYLE SIDEBAR======== */
+/* =========================== */
+#page-sidebar {
+    width: 290px;
+    position: fixed;
+}
+.sidebar {
+    padding: 20px 0px;
+}
+.sidebar-header {
+    justify-content: center;
+    align-items: center;
+}
+.sidebar .logo-toto {
+    max-width: 180px;
+}
+.sidebar .logo-toto img {
+    height: 150px;
+}
+.sidebar .sidebar-body-btns {
+    position: relative;
+    width: 100%;
+    top: auto;
+    right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.sidebar .sidebar-body-btns a {
+    display: inline-block;
+    min-width: 38px;
+    height: 100%;
+    font-size: 1.8rem;
+    line-height: 78px;
+}
+.sidebar-body .sidebar-body-btns {
+    justify-content: center;
+}
+.sidebar-body .btns-item .badge {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right:0px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-style: normal;
+    color: #fff;
+    font-weight: 700;
+    text-transform: none;
+    background: #000;
+    border-radius: 50%;
+    font-size: 13px;
+}
+.sidebar-body .sidebar-body-menu {
+    max-height: 350px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.sidebar-body .menu .menu-item {
+    color: #000;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+.sidebar-body .sidebar-body-menu .menu {
+    padding: 0px;
+}
+.sidebar-body .menu .menu-item .menu-item-link {
+    display: inline-block;
+    padding: 1.5rem 2rem;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.25s ease-in-out;
+    color: inherit;
+    letter-spacing: .2em;
+}
+.sidebar-body .menu .menu-item .menu-item-link:hover {
+    background-color: #f7f7f7;
+    text-decoration: underline;
+    color: #78cccd;
+}
+.sidevar-footer .contact-wrap .phone {
+    margin: 0 auto;
+    background: #000;
+    width: 180px;
+    height: 40px;
+    color: #fff;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidevar-footer .contact-wrap .phone .hotline {
+    width: 40px;
+    height: auto;
+    left: -22px;
+    position: relative;
+}
+.sidevar-footer .contact-wrap .social {
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+}
+.sidevar-footer .contact-wrap .social a {
+    margin-right: 10px;
+}
