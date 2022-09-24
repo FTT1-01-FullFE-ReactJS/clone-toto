@@ -24,8 +24,59 @@
 .banner-top .slick-arrow {
     display: none;
     left: 0px;
-
 }
 .banner-top .slick-dots {
     bottom: -2px;
+}
+.menigame-banner .banner-promotion-right .banner-item {
+    width: 25%;
+    display: inline-block;
+    padding-left: 30px;
+}
+.menigame-banner .banner-promotion-right .banner-item a {
+    width: 100%;
+    display: block;
+}
+.menigame-banner .banner-promotion-right img{
+    width: 100%;
+}
+
+
+.gemini-featured-collection .featured-collection .section-heading {
+    margin: 20px 0;
+    text-align: center;
+}
+.gemini-featured-collection .heading-title .title {
+    font-size: 32px;
+    position: relative;
+    font-family: Quicksand,sans-serif;
+    font-weight: 700;
+    padding-top: 0;
+    margin: 0;
+    padding-bottom: 0;
+    font-weight: 700;
+}
+.gemini-featured-collection .heading-title .title a {
+    color: inherit;
+    padding-bottom: 5px;
+}
+.gemini-featured-collection .heading-title .title a:hover {
+    color: #78cccd;;
+}
+.gemini-featured-collection .heading-title .line-title {
+    position: relative;
+    background: #fff;
+    padding: 0 11px;
+    color: #000;
+    font-size: 8px;
+}
+.gemini-featured-collection .heading-title .line-title::after {
+    background: #000;
+    content: "";
+    height: 1px;
+    left: -200px;
+    position: absolute;
+    top: 5px;
+    width: 430px;
+    z-index: -1;
 }

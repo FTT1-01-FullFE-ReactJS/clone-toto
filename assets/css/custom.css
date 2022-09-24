@@ -15,7 +15,12 @@
 }
 .p-top30 {
     padding-top:30px ;
+    padding-bottom: 20px;
 }
 .p-left20 {
     padding-left: 20px;
+}
+.page-width {
+    padding: 0 30px;
+    margin: 0;
 }
