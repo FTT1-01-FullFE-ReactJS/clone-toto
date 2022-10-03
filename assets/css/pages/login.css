@@ -1,0 +1,85 @@
+.page-login {
+    margin-left: 290px;
+}
+.header .img {
+    width: 100%;
+}
+.header .useSign {
+    left: 0px;
+    right: 0px;
+    top: 30%;
+}
+.header .useSign .title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    letter-spacing: 8px;
+}
+.header .useSign .breadcrumb {
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    padding: 8px 15px;
+}
+.header .useSign .breadcrumb span {
+    padding-left: 4px;
+}
+.header .useSign .breadcrumb a,
+span {
+    color: black;
+}
+.header .useSign .breadcrumb a:hover {
+    color: #78cccd;
+}
+.userContent {
+    margin-top: 5%;
+}
+.userContent .wrapper {
+    text-align: center;
+    padding: 0px 300px;
+}
+.userContent .wrapper .form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+.userContent .wrapper .form .submit {
+    padding-top: 20px;
+}
+.userContent .wrapper .form .btn {
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #fff;
+    border: 1px solid transparent;
+    background: #78cccd;
+    padding: 10px 15px;
+    outline: none;
+    transition: all .2s ease-in-out;
+}
+.userContent .wrapper .form .btn:hover {
+    background-color: #53bebf;
+}
+.userContent .wrapper .form .divider {
+    width: 200px;
+    margin: 50px auto;
+    border: 1px solid #ddd;
+}
+.userContent .wrapper .form .from-link {
+    padding-top: 5px;
+}
+@media only screen and (max-width: 768px) {
+    .page-login {
+        margin-left: 0px;
+    }
+    .header .useSign .title {
+        font-size: 16px;
+        margin: 0px;
+    }
+    .header .useSign .breadcrumb {
+        font-size: 8px;
+        padding: 0px;
+    }
+}
