@@ -223,9 +223,23 @@ li {
     padding-right: 15px;
     padding-left: 15px;
 }
+.footer-top .ft-left .hotline-box .hotline-contact .font-12px {
+    font-size: 12px;
+}
+.footer-top .ft-left .hotline-box .hotline-contact .font-16px {
+    font-size: 16px;
+}
+.footer-top .text {
+    color:#FFFFFF;
+}
+.footer-top .ft-left .hotline-box .text span {
+    text-align: center;
+}
 .footer-top .ft-left .hotline-box b {
     font-weight: 700;
     color:  #ef9608;
+    font-size: 16px;
+    text-align: center;
 }
 .footer-top .ft-right .col-footer {
     flex: 0 0 calc(100% / 3);
@@ -241,6 +255,9 @@ li {
 .footer-top .ft-right .col-footer ul li a {
     font-size: 12px;
     color: #fff;
+}
+.footer-top .ft-right .col-footer .text-color {
+    color:#33ccff;
 }
 .footer-center {
     padding-right: 15px;
